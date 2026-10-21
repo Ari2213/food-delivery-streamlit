@@ -1,0 +1,19 @@
+# Entorno virtual
+entorno_food/
+venv/
+.venv/
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+
+# Información privada
+.env
+.streamlit/secrets.toml
+
+# Archivo Excel original
+FoodDelivery_Modelo_2025.xlsx
+
+# Datos sintéticos experimentales
+data/pedidos_sinteticos_5000.csv
+data/food_delivery.csv

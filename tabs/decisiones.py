@@ -110,3 +110,29 @@ def mostrar(df):
         "no demuestran causalidad y el modelo predictivo "
         "presenta limitaciones de precisión."
     )
+
+
+
+    st.divider()
+
+    st.subheader("Conclusión del análisis")
+
+    st.write("""
+    A partir del análisis de 6,668 pedidos, se identificó que el
+    9.63 % recibió calificaciones bajas. Uno de los hallazgos más
+    relevantes fue la relación entre los tiempos de entrega y la
+    satisfacción del cliente, ya que los pedidos con calificaciones
+    bajas presentaron mayores tiempos de entrega.
+
+    Asimismo, el segmento Inactivo registró el mayor porcentaje
+    de insatisfacción (11.32 %).
+
+    Aunque el modelo predictivo permitió identificar parte de los
+    pedidos con riesgo de recibir una calificación baja, sus
+    resultados todavía presentan limitaciones.
+
+    Por ello, se recomienda priorizar la revisión de los tiempos
+    de entrega, mejorar la comunicación con los clientes y dar
+    seguimiento a los segmentos con mayor insatisfacción.
+    Estas acciones deberán evaluarse para comprobar su efectividad.
+    """)
